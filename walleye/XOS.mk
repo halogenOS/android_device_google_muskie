@@ -9,8 +9,6 @@ $(call inherit-product, vendor/xos/config/common.mk)
 # Inherit device configuration
 $(call inherit-product, device/google/muskie/aosp_walleye.mk)
 
-include device/google/muskie/device-XOS.mk
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := XOS_walleye
 PRODUCT_BRAND := google
